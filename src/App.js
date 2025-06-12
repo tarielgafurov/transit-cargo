@@ -1,12 +1,12 @@
-import './App.css';
-import Header from './layouts/Header';
+import React from 'react'
+import MainRoutes from './routes/MainRoutes'
 
 function App() {
   return (
-    <div className="App">
-     <Header/>
+    <div>
+      <MainRoutes/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
