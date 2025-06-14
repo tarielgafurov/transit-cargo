@@ -18,7 +18,7 @@ const BackgroundShape = styled.div`
 
   @media (max-width: 768px) {
     width: 90%;
-    height: 300px;
+    height: 300px;          
     margin: 50px auto;
     transform: rotate(-25deg);
     margin-top: 300px;
@@ -75,7 +75,7 @@ const ImagesBlock = styled.section`
   background: linear-gradient(42.57deg, rgba(88, 137, 246, 0) 5.84%, #5889F6 100.35%);
   transform: rotate(-25deg);
   z-index: 0;
-
+  
   @media (max-width: 768px) {
     width: 90%;
     height: 300px;
