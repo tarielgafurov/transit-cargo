@@ -39,6 +39,7 @@ const grow3 = keyframes`
 const Section = styled.section`
   display: flex;
   padding: 80px 60px;
+  margin-top: 100px;
 
   @media (max-width: 768px) {
     padding: 40px 20px;
